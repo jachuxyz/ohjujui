@@ -1,0 +1,313 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: darkblue;
+}
+
+* {
+  text-align: justify;
+  color: white;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  font-size: 2.4em;
+}
+
+footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: gray;
+}
+
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: gray;
+}
+
+.about-drink1 {
+  border-bottom: 0.3em solid gray;
+  border-left: 0.7em solid gray;
+}
+.about-drink1__content {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 50px;
+}
+.about-drink1__content--image {
+  width: 500px;
+}
+.about-drink1__content--image img {
+  width: 100%;
+}
+.about-drink1__content--text {
+  width: 500px;
+  padding: 2em;
+}
+.about-drink1__content--text h1 {
+  margin-bottom: 1em;
+}
+
+.about-drink2 {
+  border-top: 0.3em solid gray;
+  border-bottom: 0.3em solid gray;
+  border-right: 0.7em solid gray;
+}
+.about-drink2__content {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex: 1;
+  gap: 50px;
+}
+.about-drink2__content--image {
+  width: 500px;
+}
+.about-drink2__content--image img {
+  width: 100%;
+}
+.about-drink2__content--text {
+  padding: 2em;
+  width: 500px;
+}
+.about-drink2__content--text h1 {
+  margin-bottom: 1em;
+}
+
+.about-drink3 {
+  border-top: 0.3em solid gray;
+  border-bottom: 0.3em solid gray;
+  border-left: 0.7em solid gray;
+}
+.about-drink3__content {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 50px;
+}
+.about-drink3__content--image {
+  width: 500px;
+}
+.about-drink3__content--image img {
+  width: 100%;
+}
+.about-drink3__content--text {
+  padding: 2em;
+  width: 500px;
+}
+.about-drink3__content--text h1 {
+  margin-bottom: 1em;
+}
+
+.about-drink4 {
+  border-top: 0.3em solid gray;
+  border-bottom: 0.3em solid gray;
+  border-left: 0.7em solid gray;
+}
+.about-drink4__content {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 50px;
+}
+.about-drink4__content--image {
+  width: 500px;
+}
+.about-drink4__content--image img {
+  width: 100%;
+}
+.about-drink4__content--text {
+  padding: 2em;
+  width: 500px;
+}
+.about-drink4__content--text h1 {
+  margin-bottom: 1em;
+}
+
+.about-drink5 {
+  border-top: 0.3em solid gray;
+  border-left: 0.7em solid gray;
+}
+.about-drink5__content {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 50px;
+}
+.about-drink5__content--image {
+  width: 500px;
+}
+.about-drink5__content--image img {
+  width: 100%;
+}
+.about-drink5__content--text {
+  padding: 2em;
+  width: 500px;
+}
+.about-drink5__content--text h1 {
+  margin-bottom: 1em;
+}/*# sourceMappingURL=style_index.css.map */
